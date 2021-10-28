@@ -57,7 +57,7 @@ public class BookController {
 
 
     @PostMapping("/book")
-    public ResponseEntity<String> addUser(@Valid @RequestBody Book book){
+    public ResponseEntity<String> addBook(@Valid @RequestBody Book book){
         return ResponseEntity.ok("User is valid");
     }
 
